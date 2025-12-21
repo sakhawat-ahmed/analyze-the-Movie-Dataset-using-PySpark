@@ -1,4 +1,3 @@
-# movie_analysis_final_safe.py
 import os
 import logging
 from pyspark.sql import SparkSession
