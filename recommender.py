@@ -1,4 +1,3 @@
-# recommender.py
 from pyspark.ml.recommendation import ALS
 from pyspark.sql.functions import col
 from pyspark.ml.evaluation import RegressionEvaluator

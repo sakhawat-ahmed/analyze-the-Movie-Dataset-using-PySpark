@@ -2,7 +2,7 @@ import os
 import logging
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import col, regexp_extract, year, coalesce, lit, expr
-from pyspark.sql.functions import try_to_date  # PySpark 3.5+
+from pyspark.sql.functions import try_to_date  
 from pyspark.ml.feature import VectorAssembler
 from pyspark.ml.regression import LinearRegression
 from pyspark.ml.evaluation import RegressionEvaluator
